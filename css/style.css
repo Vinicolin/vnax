@@ -9,13 +9,21 @@ img header{
 }
 
 body{
-    background-color: #040537;
+    background-color: #000000;
    
 }
 
 a { 
     font-family :sans-serif;
     color: #ffffff;
+    width: 150px;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 66px;
+    border-radius: 36px;
+    margin: 10px;
+    background-color: rgb(4, 4, 160);
 
 }
 
@@ -42,4 +50,10 @@ footer{
     font-family :sans-serif;
     color: #ffffff;
 
+}
+
+section img{
+    width: 720px;
+    height: 150px;
+    margin: 20px 0;
 }
