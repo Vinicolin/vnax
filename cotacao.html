@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cotação - VNAX Seguros</title>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-content">
+        <div class="logo">
+          <img src="img/logo.png" alt="VNAX Seguros" />
+        </div>
+        <nav class="nav">
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre Nós</a>
+          <a href="cotacao.html" class="active">Cotação</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+        <a href="cotacao.html" class="btn btn-primary">Solicitar Cotação</a>
+      </div>
+    </header>
+
+    <section class="page-hero">
+      <div class="container">
+        <h1>Solicite sua Cotação</h1>
+        <p>Preencha seus dados e retornaremos com a melhor proposta para você.</p>
+      </div>
+    </section>
+
+    <section class="quote-section">
+      <div class="container">
+        <div class="quote-form-container">
+          <div class="quote-info">
+            <h2>Como funciona?</h2>
+            <div class="step">
+              <div class="step-number">1</div>
+              <div>
+                <h3>Preencha o formulário</h3>
+                <p>Nos envie seus dados e informações do seguro desejado.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">2</div>
+              <div>
+                <h3>Analisamos seu perfil</h3>
+                <p>Nossa equipe avalia as melhores opções para você.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <div>
+                <h3>Entramos em contato</h3>
+                <p>Retornamos com a proposta personalizada.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="quote-form">
+            <h2>Solicitar Cotação</h2>
+            <form>
+              <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" required placeholder="Seu nome completo">
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="seu@email.com.br">
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" required placeholder="(00) 00000-0000">
+              </div>
+              <div class="form-group">
+                <label for="tipo">Tipo de Seguro</label>
+                <select id="tipo" name="tipo" required>
+                  <option value="">Selecione o tipo de seguro</option>
+                  <option value="auto">Seguro Automóvel</option>
+                  <option value="residencial">Seguro Residencial</option>
+                  <option value="vida">Seguro de Vida</option>
+                  <option value="saude">Seguro Saúde</option>
+                  <option value="previdencia">Previdência</option>
+                  <option value="consorcio">Consórcio</option>
+                  <option value="outro">Outro</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem (opcional)</label>
+                <textarea id="mensagem" name="mensagem" rows="3" placeholder="Alguma informação adicional?"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Solicitar Cotação</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits-section">
+      <div class="container">
+        <h2 class="section-title">Por que solicitar com a gente?</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">💰</div>
+            <h3>Melhor Preço</h3>
+            <p>Comparamos as melhores seguradoras para você economizar.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🛡️</div>
+            <h3>Cobertura Completa</h3>
+            <p>Opções personalizadas para cada necessidade.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">🤝</div>
+            <h3>Atendimento Personalizado</h3>
+            <p>Suporte humanizado em todas as etapas.</p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">⚡</div>
+            <h3>Resposta Rápida</h3>
+            <p>Retornamos seu contato em até 24 horas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="VNAX Seguros" />
+          <p>Sua corretora de seguros!</p>
+        </div>
+        <div class="footer-links">
+          <h4>Links Rápidos</h4>
+          <a href="index.html">Início</a>
+          <a href="sobre.html">Sobre Nós</a>
+          <a href="cotacao.html">Cotação</a>
+          <a href="contato.html">Contato</a>
+        </div>
+        <div class="footer-contact">
+          <h4>Contato</h4>
+          <p>Email: vnaxseguros@gmail.com</p>
+          <p>Telefone: (16) 99123-9969</p>
+          <p>Telefone: (16) 99335-7379</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 VNAX Seguros. Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
