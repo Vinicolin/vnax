@@ -9,6 +9,7 @@
   --primary-color: #040436;
   --secondary-color: #1a4a7a;
   --accent-color: #ffffff;
+  --tertiary-color: #040436;
 
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f7fa;
@@ -88,7 +89,7 @@ img {
 
 .btn-primary:hover {
   background-color: transparent;
-  color: var(--accent-color);
+  color: var(--tertiary-color);
 }
 
 .btn-outline {
